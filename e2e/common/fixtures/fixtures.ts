@@ -2,7 +2,7 @@ import { test as base } from '@playwright/test';
 import {
     HomePage,
     ThankYouPage
-} from '../pages/';
+} from '../pages';
 
 type Fixtures = {
     homePage: HomePage;
