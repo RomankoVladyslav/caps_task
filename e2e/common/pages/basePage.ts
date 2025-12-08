@@ -7,5 +7,8 @@ export abstract class BasePage {
         this.page = page;
     }
 
+    async goto(url: string) {
+        await this.page.goto(url);
+    }
 
 }

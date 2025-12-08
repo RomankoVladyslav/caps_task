@@ -1,0 +1,24 @@
+{
+  "name": "caps_task",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "allTests": "npx playwright test",
+    "oneTest": "npx playwright test buyFormStepProgressCheck.test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomankoVladyslav/caps_task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomankoVladyslav/caps_task/issues"
+  },
+  "homepage": "https://github.com/RomankoVladyslav/caps_task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
